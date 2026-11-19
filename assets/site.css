@@ -556,6 +556,8 @@ html[data-motion="force"] #design-1.on .x-stump .sr,html[data-motion="force"] #d
 @media (prefers-reduced-motion:reduce){html:not([data-motion="force"]) #design-1 .x-stump,html:not([data-motion="force"]) #design-1 .x-stump .ch{animation:none}html:not([data-motion="force"]) #design-1 .x-stump .sr,html:not([data-motion="force"]) #design-1 .x-stump .sc{animation:none;stroke-dasharray:none;stroke-dashoffset:0}}
 @media (max-width:900px){#design-1 .x-callnote{margin:40px 0 0;max-width:none}#design-1 .x-stump{max-width:260px}}
 
+#design-1 .x-close-cut{width:min(400px,25vw);top:-170px;right:3%}
+
 :root{--chrome:0px}
 body{margin:0;background:#0E100F}
 #design-1 .x-nav a:first-child{text-decoration-color:transparent}
