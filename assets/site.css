@@ -558,6 +558,8 @@ html[data-motion="force"] #design-1.on .x-stump .sr,html[data-motion="force"] #d
 
 #design-1 .x-close-cut{width:min(400px,25vw);top:-170px;right:3%}
 
+#design-1 .x-faq-pic{max-width:420px;margin-top:34px;transform:rotate(var(--r))}
+
 :root{--chrome:0px}
 body{margin:0;background:#0E100F}
 #design-1 .x-nav a:first-child{text-decoration-color:transparent}
