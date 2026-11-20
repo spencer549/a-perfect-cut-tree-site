@@ -560,6 +560,11 @@ html[data-motion="force"] #design-1.on .x-stump .sr,html[data-motion="force"] #d
 
 #design-1 .x-faq-pic{max-width:420px;margin-top:34px;transform:rotate(var(--r))}
 
+#design-1 .x-close h2.x-close-h{max-width:none;line-height:.9}
+#design-1 .x-close h2.x-close-h span{display:block;white-space:nowrap}
+@media (min-width:901px){#design-1 .x-close h2.x-close-h{font-size:min(176px,calc((min(1240px,100vw - 80px) - 340px) / 7.2))}}
+@media (max-width:900px){#design-1 .x-close h2.x-close-h{font-size:min(130px,calc((100vw - 40px) / 7.2))}}
+
 :root{--chrome:0px}
 body{margin:0;background:#0E100F}
 #design-1 .x-nav a:first-child{text-decoration-color:transparent}
