@@ -924,6 +924,27 @@ body{margin:0;background:#0E100F}
 .n-chgn[hidden]{display:none}
 @media (max-width:900px){.n-chgn{bottom:86px;left:12px;right:12px;justify-content:space-between}}
 
+@media (min-width:901px){#design-1 .n-prose .n-tw{clear:both}}
+#design-1 .x-asph .n-tl ul.n-glist li,#design-1 .x-asph .n-sheet ul.n-glist li{background:#E4E0D8}
+
+#design-1 .n-prose ul.n-glist{gap:16px 22px}
+#design-1 .n-prose ul.n-glist.n-g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+#design-1 .n-prose ul.n-glist.n-g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+#design-1 .n-prose ul.n-glist.n-g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+#design-1 .n-prose:has(.n-flt) ul.n-glist.n-g4,#design-1 .n-tl ul.n-glist.n-g3,#design-1 .n-tl ul.n-glist.n-g4{grid-template-columns:repeat(2,minmax(0,1fr))}
+#design-1 .n-prose ul.n-glist li,#design-1 .x-asph .n-prose ul.n-glist li,#design-1 .x-asph .n-tl ul.n-glist li,#design-1 .x-asph .n-sheet ul.n-glist li{
+ background:#FFFDF7;color:#1B1D1C;border-left:6px solid var(--or);padding:14px 16px 14px 36px;font-weight:500;
+ box-shadow:0 1px 0 rgba(0,0,0,.06),0 8px 18px rgba(0,0,0,.16);transform:rotate(-.5deg)}
+#design-1 .n-prose ul.n-glist li:nth-child(even){transform:rotate(.45deg)}
+#design-1 .n-prose ul.n-glist li:nth-child(3n){transform:rotate(-.2deg)}
+#design-1 .x-asph .n-prose ul.n-glist li{box-shadow:0 10px 22px rgba(0,0,0,.45)}
+#design-1 .n-prose ul.n-glist li a{color:inherit}
+#design-1 .n-tl{container-type:inline-size}
+@container (max-width:470px){#design-1 .n-prose ul.n-glist,#design-1 ul.n-glist{grid-template-columns:1fr!important}}
+#design-1 .n-prose ul:not(.n-glist) li::before{position:static;display:inline-block;vertical-align:.14em;margin:0 15px 0 -28px}
+@media (max-width:900px){#design-1 .n-prose ul.n-glist.n-g3,#design-1 .n-prose ul.n-glist.n-g4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){#design-1 .n-prose ul.n-glist.n-g2,#design-1 .n-prose ul.n-glist.n-g3,#design-1 .n-prose ul.n-glist.n-g4{grid-template-columns:1fr}}
+
 :is(#design-1,#design-3) nav .nv-dd{position:relative;display:inline-flex;align-items:center}
 :is(#design-1,#design-3) nav .nv-dd-b{appearance:none;-webkit-appearance:none;background:none;border:0;color:inherit;width:24px;min-height:44px;margin:0 -6px 0 -2px;padding:0;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
 :is(#design-1,#design-3) nav .nv-dd-b svg{width:14px;height:14px;transition:transform 180ms ease-out}
