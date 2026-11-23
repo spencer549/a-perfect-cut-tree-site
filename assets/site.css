@@ -974,4 +974,4 @@ html.n-fm-lock,html.n-fm-lock body{overflow:hidden}
 .f-call{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
 .f-call a.x-callb{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:0 18px;font-size:14.5px;font-weight:700;line-height:1.15;text-decoration:none}
 .f-call a.x-callb svg{width:18px;height:18px;flex:none}
-html.n-lock,html.n-lock body{overflow:hidden!important;overscroll-behavior:none}#design-1 .n-lb figcaption{max-width:min(60em,100%);overflow-wrap:anywhere}
+html.n-lock,html.n-lock body{overflow:hidden!important;overscroll-behavior:none}#design-1 .n-lb figure{width:fit-content;max-width:100%;display:flex;flex-direction:column}#design-1 .n-lb figcaption{width:0;min-width:100%;max-width:none;overflow-wrap:break-word}
