@@ -945,6 +945,11 @@ body{margin:0;background:#0E100F}
 @media (max-width:900px){#design-1 .n-prose ul.n-glist.n-g3,#design-1 .n-prose ul.n-glist.n-g4{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){#design-1 .n-prose ul.n-glist.n-g2,#design-1 .n-prose ul.n-glist.n-g3,#design-1 .n-prose ul.n-glist.n-g4{grid-template-columns:1fr}}
 
+#design-1 .n-rel p.n-also{margin:0 0 26px;max-width:70ch;font-size:18px;line-height:1.6}
+#design-1 .n-rel .n-tix+p.n-also{margin:30px 0 0}
+#design-1 .n-rel p.n-also+p.n-also{margin-top:14px}
+@media (min-width:1100px){#design-1 .n-tix.t4{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
 :is(#design-1,#design-3) nav .nv-dd{position:relative;display:inline-flex;align-items:center}
 :is(#design-1,#design-3) nav .nv-dd-b{appearance:none;-webkit-appearance:none;background:none;border:0;color:inherit;width:24px;min-height:44px;margin:0 -6px 0 -2px;padding:0;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
 :is(#design-1,#design-3) nav .nv-dd-b svg{width:14px;height:14px;transition:transform 180ms ease-out}
